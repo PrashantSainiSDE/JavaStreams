@@ -72,7 +72,7 @@ public class JavaStreamsDemo {
 
         // Using SummaryStatistics for product prices
         // Sum, Average, Min, Max, Count (5 metrics)
-        Map<String, IntSummaryStatistics> summaryStatisticsByCategory =
+         Map<String, IntSummaryStatistics> summaryStatisticsByCategory =
                 products.collect(Collectors.groupingBy
                         (Product::category,
                                 Collectors.summarizingInt(Product::price)));
