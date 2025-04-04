@@ -1,3 +1,5 @@
+package com.example.test;
+
 public class G1Demo {
     public static void main(String[] args) {
 
