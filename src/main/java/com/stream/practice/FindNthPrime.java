@@ -24,6 +24,7 @@ public class FindNthPrime {
         int nth2 = 5;
         int nthPrime1 = findNthPrime(nth1);
         int nthPrime2 = findNthPrime(nth2);
+
         System.out.println((nthPrime1 * nthPrime2) - 1);
 
     }
